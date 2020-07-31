@@ -1,0 +1,27 @@
+### `exampleArgs`
+Use named parameters with defaults and a block section. See [vars/exampleArgs.groovy](vars/exampleArgs.groovy).
+
+```groovy
+steps {
+    exampleArgs(requiredArg: 'foo', optionalArg: 'bar') {
+        echo 'block steps'
+    }
+}
+```
+
+Example build log output:
+```
+[Pipeline] echo
+Arguments: [requiredArg:foo, optionalArg:bar, hasDefaultArg:baz]
+[Pipeline] echo
+Block:org.jenkinsci.plugins.workflow.cps.CpsClosure
+```
+
+#### Arguments
+
+| Argument name  | Type       | Purpose                                    | Default   | Required? |
+|----------------|------------|--------------------------------------------|-----------|-----------|
+| requiredArg    | String     | A required named argument.                 |           | ✔         |
+| optionalArg    | String     | Another example named argument.            |           |           |
+| hasDefaultArg  | String     | Yet another example named argument.        | baz       |           |
+
