@@ -21,8 +21,8 @@ A basic `Jenkinsfile` example:
 library identifier: 'jenkins-shared-library@v1.0.0', 
     retriever: modernSCM([
         $class: 'GitSCMSource',
-        remote: 'https://github.com/mhicks-cloudbees/jenkins-shared-library.git'
-        // remote: 'git@github.com:mhicks-cloudbees/jenkins-shared-library.git',
+        remote: 'https://github.com/ZachDZimmerman/shared-library.git'
+        // remote: 'git@github.com:ZachDZimmerman/shared-library.git',
         // credentialsId: 'git-key'
     ])
 
