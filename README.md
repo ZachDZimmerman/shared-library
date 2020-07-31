@@ -10,7 +10,7 @@ When authoring pipelines and shared libraries, be aware of certain limitations a
 * Use the [Snippet Generator](https://jenkins.io/doc/book/pipeline/getting-started/#snippet-generator) and the [Declarative Directive Generator](https://jenkins.io/doc/book/pipeline/getting-started/#directive-generator)
 * [Pipeline: Best Practices](https://support.cloudbees.com/hc/en-us/articles/230922208-Pipeline-Best-Practices)
 
-[Extending shared libraries] (https://www.jenkins.io/doc/book/pipeline/shared-libraries/#global-shared-libraries) As Pipeline is adopted for more and more projects in an organization, common patterns are likely to emerge. Oftentimes it is useful to share parts of Pipelines between various projects to reduce redundancies and following DRY principles.
+[Extending shared libraries](https://www.jenkins.io/doc/book/pipeline/shared-libraries/#global-shared-libraries) As Pipeline is adopted for more and more projects in an organization, common patterns are likely to emerge. Oftentimes it is useful to share parts of Pipelines between various projects to reduce redundancies and following DRY principles.
 
 ## Usage
 
