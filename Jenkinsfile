@@ -1,4 +1,4 @@
-library identifier: 'shared-library@v1.0.0', 
+library identifier: 'shared-library@1.0.1', 
     retriever: modernSCM([
         $class: 'GitSCMSource',
         remote: 'https://github.com/ZachDZimmerman/shared-library.git'
@@ -14,13 +14,13 @@ pipeline {
                 exampleHelloWorld()
             }
         }
-        stage('Args') {
+        /*stage('Args') {
             steps {
                 exampleArgs(namedArg1: 'foo', namedArg2: 'bar') {
                     echo 'block steps'
                 }
             }
-        }
+        }*/
         stage('Resource Script') {
             steps {
                 exampleResourceScript()
