@@ -1,4 +1,4 @@
-library identifier: 'shared-library@v1.0.0', 
+library identifier: 'shared-library@1.0.0', 
     retriever: modernSCM([
         $class: 'GitSCMSource',
         remote: 'https://github.com/ZachDZimmerman/shared-library.git'
